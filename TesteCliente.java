@@ -3,7 +3,7 @@ public class TesteCliente{
 
     System.out.println("Processando o cliente...")
 }
- Class Cliente{
+ class Cliente{
   String nome;
   String cpf;
   public void setNome(String nome){
@@ -11,13 +11,15 @@ public class TesteCliente{
   }
   
 public String getNome(){
-this.nome
+return this.nome
  }
+
   public String setCpf(String nome){
-  this.nome
+  this.cpf= cpf;
    }
+   
   public String getCpf(){
-  this.cpf
+return this.cpf
   }
  }
 
