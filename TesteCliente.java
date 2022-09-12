@@ -11,7 +11,7 @@ public class TesteCliente{
   this.nome = nome;
   }
   
-public void getNome(){
+public String getNome(){
 return this.nome
  }
 
@@ -19,7 +19,7 @@ return this.nome
   this.cpf = cpf;
    }
    
-  public void getCpf(){
+  public String getCpf(){
 return this.cpf
   }
  }
