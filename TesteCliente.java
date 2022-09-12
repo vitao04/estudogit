@@ -6,19 +6,20 @@ public class TesteCliente{
  class Cliente{
   String nome;
   String cpf;
+  
   public void setNome(String nome){
   this.nome = nome;
   }
   
-public String getNome(){
+public void getNome(){
 return this.nome
  }
 
-  public String setCpf(String nome){
-  this.cpf= cpf;
+  public void setCpf(String cpf){
+  this.cpf = cpf;
    }
    
-  public String getCpf(){
+  public void getCpf(){
 return this.cpf
   }
  }
